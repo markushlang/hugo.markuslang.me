@@ -11,7 +11,7 @@ For a few weeks I have tried to keep up with the [draft vaccine landscape docume
 
 The [package homepage](https://github.com/markushlang/covid19vaccines) has installation details and an example. I also added a [Shiny web app](https://markushlang.shinyapps.io/covid19vaccines/) that makes it somewhat easier to filter through the table.
 
-{{% figure src="https://markuslang.me/files/misc/covid19vaccines_app.png" alt="Covid-19 Vaccines" caption="Screenshot of the covid19vaccines Shiny app" %}}
+{{% figure src="https://markuslang.org/files/misc/covid19vaccines_app.png" alt="Covid-19 Vaccines" caption="Screenshot of the covid19vaccines Shiny app" %}}
 
 I hope to be able to update the package each week. In building the package I profited from a number of sources:
 
