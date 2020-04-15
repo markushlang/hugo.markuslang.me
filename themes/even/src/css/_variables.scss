@@ -5,8 +5,7 @@
 // ========== Theme Color ========== //
 // Config here to change theme color
 // Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-$theme-color-config: 'Red';
-$link-color-config: 'Red';
+$theme-color-config: 'Default';
 
 // Default theme color map
 $theme-color-map: (
@@ -14,11 +13,7 @@ $theme-color-map: (
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
-  'Dark Violet': #9932CC #f5f4fa,
-  'Light Blue': #3b5223 #3b5223,
-  'Green': #016c59 #016c59,
-  'Red': #b52732 #bc2736
-
+  'Dark Violet': #9932CC #f5f4fa
 );
 
 // Check theme color config.
@@ -28,16 +23,6 @@ $theme-color-map: (
 }
 $theme-color-list: map-get($theme-color-map, $theme-color-config);
 
-$theme-color-list: map-get($theme-color-map, $theme-color-config);
-
-@if not(map-has-key($theme-color-map, $link-color-config)) {
-  $link-color-config: 'Default';
-}
-
-$link-color-list: map-get($theme-color-map, $link-color-config);
-
-
-
 // Default theme color of the site.
 $theme-color: nth($theme-color-list, 1) !default;
 
@@ -45,22 +30,18 @@ $theme-color: nth($theme-color-list, 1) !default;
 $deputy-color: nth($theme-color-list, 2) !default;
 
 
-$link-color: nth($link-color-list, 1) !default;
-
 // ========== Color ========== //
 $black: #0a0a0a !default;
 $white: #fefefe !default;
 $light-gray: #e6e6e6 !default;
 $gray: #cacaca !default;
 $dark-gray: #8a8a8a !default;
+$blue: #d9e5f3 !default;
 
 
 // ========== Global ========== //
 // Text color of the body.
 $global-font-color: #34495e !default;
-
-// Global link color
-$global-link-color:  $link-color !default;
 
 // Font size attribute applied to '<html>' and '<body>'.
 $global-font-size: 16px !default;
@@ -75,7 +56,7 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: source-sans-pro, 'Helvetica Neue', sans-serif !default;
+$global-font-family: source-serif-pro, 'Helvetica Neue', sans-serif !default;
 
 // Serif font family of the site.
 $global-serif-font-family: source-sans-pro, serif !default;
@@ -105,19 +86,21 @@ $header-padding: 20px 20px !default;
 }
 
 // Font size of the logo.
-$logo-font-size: 36px !default;
+$logo-font-size: 18px !default;
 
 // Font family of the logo.
 $logo-font-family: source-sans-pro, sans-serif !default;
 
 // Margin of menu item.
-$menu-item-margin-left: 16px !default;
+$menu-item-margin-right: 0px !default;
 
 // Margin of menu item in mobile.
 $menu-item-mobile-margin: 5px !default;
 
 // Font size of menu item link.
 $menu-link-font-size: 18px !default;
+
+$menu-item-margin-left: 0px !default;
 
 // Height of the mobile header.
 $mobile-navbar-height: 50px !default;
@@ -206,7 +189,7 @@ $code-color: #c7254e !default;
 $code-font-size: 0.9em !default;
 
 // Font family of the code.
-$code-font-family: input-mono-narrow, PragmataPro, Monaco, Menlo, "DejaVu Sans Mono",
+$code-font-family: source-code-pro, PragmataPro, Monaco, Menlo, "DejaVu Sans Mono",
  "Bitstream Vera Sans Mono", "Lucida Console" "Courier New", monospace !default;
 
 // Color of code highlight, solarized.
@@ -247,6 +230,7 @@ $code-type-list: (
   language-ruby: "Ruby",
   language-sql: "SQL",
   language-shell: "Shell",
+
   language-erlang: "Erlang",
   language-go: "Go",
   language-go-html-template: "Go HTML Template",

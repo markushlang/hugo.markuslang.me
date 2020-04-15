@@ -27,12 +27,12 @@ body {
 
 ::selection {
   background: $theme-color;
-  color: #fff; 
+  color: #fff;
 }
 
 // ::-webkit-scrollbar {
 //   width: 8px;
-//   height: 6px; 
+//   height: 6px;
 // }
 
 // ::-webkit-scrollbar-thumb {
@@ -53,7 +53,7 @@ img {
 }
 
 a {
-  color: $global-link-color;
+  color: $global-font-color;
   text-decoration: none;
 }
 

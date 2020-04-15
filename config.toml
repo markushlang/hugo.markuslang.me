@@ -1,5 +1,5 @@
 MetaDataFormat = "yaml"
-baseurl = "https://markuslang.org/"
+baseurl = "https://www.markuslang.org/"
 title = "Markus Lang"
 CanonifyUrls = true
 
