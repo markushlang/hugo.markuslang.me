@@ -60,4 +60,4 @@ flu_curve %>%
 
 {{< /highlight r >}}
 
-{{% figure src="https://markuslang.me/files/misc/panishflu_figure.png" alt="Cummulative Deaths from the Spanish Flu" caption="Selected U.S. Cities" %}}
+{{% figure src="https://github.com/markushlang/spanishflu/raw/master/man/figures/README-example-1.png" alt="Cummulative Deaths from the Spanish Flu" caption="Selected U.S. Cities" %}}
