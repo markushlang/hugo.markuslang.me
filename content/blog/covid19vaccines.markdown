@@ -1,6 +1,6 @@
 ---
 title: "Covid-19 Vaccines"
-date: 2020-04-10T13:18:50-04:00
+date: 2020-04-12T13:18:50-04:00
 categories: [R,visualization,covid19]
 footnotes: false
 htmlwidgets: false

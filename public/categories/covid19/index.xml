@@ -1,0 +1,11 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>covid19 on Markus Lang</title><link>https://markuslang.org/categories/covid19/</link><description>Recent content in covid19 on Markus Lang</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 28 Oct 2019 13:18:50 -0400</lastBuildDate><atom:link href="https://markuslang.org/categories/covid19/index.xml" rel="self" type="application/rss+xml"/><item><title>Covid-19 Vaccines</title><link>https://markuslang.org/blog/archives/2019/10/28/covid-19-vaccines/</link><pubDate>Mon, 28 Oct 2019 13:18:50 -0400</pubDate><guid>https://markuslang.org/blog/archives/2019/10/28/covid-19-vaccines/</guid><description>&lt;p>For a few weeks I have tried to keep up with the &lt;a href="https://www.who.int/blueprint/priority-diseases/key-action/Novel_Coronavirus_Landscape_nCoV_11April2020.PDF">draft vaccine landscape documents&lt;/a> published by the WHO. I figured that if I do this work anyway I might as well bundle the dataset in an R package. The package is called &lt;a href="https://markushlang.github.io/covid19vaccines/">&lt;code>covid19vaccines&lt;/code>&lt;/a> and contains various updates of the WHO Draft Landscape in a tidy table.&lt;/p>
+&lt;p>The &lt;a href="https://github.com/markushlang/covid19vaccines">package homepage&lt;/a> has installation details and an example. I also added a &lt;a href="https://markushlang.shinyapps.io/covid19vaccines/">Shiny web app&lt;/a> that makes it somewhat easier to filter through the table.&lt;/p>
+&lt;figure>
+&lt;img src="https://markuslang.me/files/misc/covid19vaccines_app.png"
+alt="Covid-19 Vaccines"/> &lt;figcaption>
+&lt;p>Screenshot of the covid19vaccines Shiny app&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>I hope to be able to update the package each week. In building the package I profited from a number of sources:&lt;/p>
+&lt;p>This &lt;a href="http://www.davekleinschmidt.com/r-packages/">post&lt;/a> by David F. Kleinschmidt.&lt;/p>
+&lt;p>Kieran Healy&amp;rsquo;s beautifully simple &lt;a href="http://kjhealy.github.io/nycdogs">nycdogs&lt;/a> package.&lt;/p></description></item></channel></rss>
