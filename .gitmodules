@@ -7,6 +7,3 @@
 [submodule "themes/hugo-theme-even"]
 	path = themes/hugo-theme-even
 	url = https://github.com/olOwOlo/hugo-theme-even
-[submodule "themes/themes/even"]
-	path = themes/themes/even
-	url = git@github.com:olOwOlo/hugo-theme-even
