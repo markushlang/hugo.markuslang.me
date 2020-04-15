@@ -1,0 +1,32 @@
+{{- define "content" -}}
+
+<p>I am researcher at the <a href = "https://www.soz.uni-heidelberg.de/max-weber-institute/">Max-Weber-Institute of Sociology</a> in Heidelberg. (<a href = "about/">&rarr; Read a short bio.</a>)
+
+
+<section id="pubs" class="pubs">
+<h1>Recent Work</h1>
+<ul>
+{{ range first 2 (where .Site.RegularPages.ByDate "Section" "publications").Reverse }}
+<li>{{ .Params.citation | safeHTML }} <a href="{{ .Permalink }}"> / Summary</a>
+              {{ if isset .Params "file" }}<a href="{{.Site.BaseURL}}files/papers/{{ .Params.file }}"> / PDF</a>{{ end }}
+  {{ end }}</li>
+</ul>
+</section>
+<section>
+<hr>
+</section>
+<section id="posts" class="posts">
+<br />
+<h1>Recent Writing</h1>
+  {{ range first 4 ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3> <em>{{ .Date.Format "2 January 2006" }}</em>
+  {{ if .Truncated }}
+  {{ .Summary }}
+  <p class="text-right"><a href="{{ .RelPermalink }}">Read More…</a></p>
+  {{ else }}
+  {{ .Content }}
+  {{ end }}
+</section>
+{{ end }}
+
+{{- end -}}
