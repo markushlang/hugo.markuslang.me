@@ -2,7 +2,6 @@ MetaDataFormat = "yaml"
 baseurl = "https://markuslang.me/"
 title = "Markus Lang"
 CanonifyUrls = true
-rssLimit = 20
 
 contentdir = "content"
 layoutdir = "layouts"

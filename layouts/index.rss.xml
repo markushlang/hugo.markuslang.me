@@ -1,4 +1,4 @@
-{{- $pages := .Site.Pages -}}
+{{- $pages := (where .Data.Pages "Type" "post") -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
