@@ -58,6 +58,6 @@ flu_curve %>%
           legend.text = element_text(size = rel(1))
           )
 
-{{< /highlight r >}}
+{{< /highlight >}}
 
 {{% figure src="https://github.com/markushlang/spanishflu/raw/master/man/figures/README-example-1.png" alt="Cummulative Deaths from the Spanish Flu" caption="Selected U.S. Cities" %}}
