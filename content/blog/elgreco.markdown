@@ -12,6 +12,4 @@ I have created a small R package with color palettes from El Greco paintings. It
 
 {{% figure src="https://github.com/markushlang/elgreco/raw/master/figure/unnamed-chunk-3-1.png" alt="AndrewFrancis1" caption="AndrewFrancis1" %}}
 
-{{% figure src="https://github.com/markushlang/elgreco/blob/master/figure/unnamed-chunk-12-1.png" alt="Laokoon1" caption="Laokoon1" %}}
-
 {{% figure src="https://github.com/markushlang/elgreco/raw/master/figure/unnamed-chunk-16-1.png" alt="Shepherds1" caption="Shepherds1" %}}
