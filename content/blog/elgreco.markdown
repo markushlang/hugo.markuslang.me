@@ -1,6 +1,6 @@
 ---
 title: "El Greco color palette for R"
-date: 2020-06-10T09:00:00-00:00
+date: 2020-06-09T13:18:50-04:00
 categories: [R,visualization,palette]
 footnotes: false
 htmlwidgets: false
