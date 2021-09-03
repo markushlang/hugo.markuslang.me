@@ -10,7 +10,9 @@ htmlwidgets: no
 mathjax: no
 ---
 
-I noticed that most articles in economic journals avoid to visualize the scores of patent rights indexes. But doing so is quite helpful to understand how patentability, compulsory licensing and patent terms have changed over time. 
+I noticed that most articles in economic journals avoid to visualize the scores of patent rights indexes. 
+
+But doing so is quite helpful to understand how patentability, compulsory licensing and patent terms have changed over time. 
 
 The following graphs are based on the widely used patent rights index by [http://fs2.american.edu/wgp/www/2EFWch2.pdf](Park and colleagues). This index is available for 122 countries over 55 years and consist of five main categories: 
 
@@ -82,8 +84,6 @@ The final index just sums up the scores across all five categories to get overal
 Heatmaps are helpful to explore timeseries of individual countries over time. To be able to spot more general averages, I have also plotted yearly averages.
 
 {{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/averages.png" alt="averages" caption="Patent Rights Index (Cross-Country Averages)" %}}
-
----
 
 ### Code
 
