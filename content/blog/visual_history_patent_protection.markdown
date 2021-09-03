@@ -40,10 +40,10 @@ A country has high coverage, according to the index, if it grants more patents f
 
 Park and colleagues assume that membership in the following international agreements generally equals higher protection: 
 
-Paris Convention
-PCT
-UPOV
-TRIPS
+a) [Paris Convention](https://www.wipo.int/treaties/en/ip/paris/)
+b) [PCT](https://www.wipo.int/pct/en/)
+c) [UPOV](https://www.upov.int/portal/index.html.en)
+d) [TRIPS](https://www.wto.org/english/tratop_e/trips_e/trips_e.htm)
 
 {{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/membership.png" alt="membership" caption="Patent Rights Index (Category: Membership), 1960-2015" %}}
 
@@ -87,4 +87,4 @@ Heatmaps are helpful to explore timeseries of individual countries over time. To
 
 ### Code
 
-Code (+data) is available here: [https://raw.githubusercontent.com/markushlang/patent_rights_index](https://raw.githubusercontent.com/markushlang/patent_rights_index)
+Code (+data) is available here: [https://github.com/markushlang/patent_rights_index](https://github.com/markushlang/patent_rights_index)
