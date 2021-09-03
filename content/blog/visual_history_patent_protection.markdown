@@ -23,7 +23,7 @@ The following graphs are based on the widely used patent rights index by [Park a
 
 ### Coverage
 
-A country has high coverage, according to the index, if it grants more patents for formerly unpatentable „technologies“:
+A country has high coverage, according to the index, if it grants patents for formerly unpatentable „technologies“:
 
 1) pharmaceuticals,
 2) chemicals,
