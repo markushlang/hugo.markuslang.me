@@ -10,11 +10,11 @@ htmlwidgets: no
 mathjax: no
 ---
 
-I noticed that most articles in economic journals avoid to visualize the scores of patent rights indexes. 
+I noticed that most articles in economic journals avoid to visualize the scores of patent rights indexes. But doing so is quite helpful to understand how patentability, compulsory licensing and patent terms have changed over time. 
 
-But doing so is quite helpful to understand how patentability, compulsory licensing and patent terms have changed over time. 
+### Patent Rights Index
 
-The following graphs are based on the widely used patent rights index by [http://fs2.american.edu/wgp/www/2EFWch2.pdf](Park and colleagues). This index is available for 122 countries over 55 years and consist of five main categories: 
+The following graphs are based on the widely used patent rights index by [Park and colleagues](http://fs2.american.edu/wgp/www/2EFWch2.pdf). This index is available for 122 countries over 55 years and consist of five main categories: 
 
 1. coverage +
 2. membership + 
