@@ -80,7 +80,7 @@ The final index just sums up the scores across all five categories to get overal
 
 ### Yearly Averages
 
-Heatmaps are helpful to explore timeseries of individual countries over time. To be able to spot more general averages, I have also plotted yearly averages.
+Heatmaps are helpful to explore timeseries of individual countries over time. To be able to spot more general trends, I have also plotted yearly averages.
 
 {{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/averages.png" alt="averages" caption="Patent Rights Index (Cross-Country Averages)" %}}
 
