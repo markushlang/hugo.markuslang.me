@@ -1,6 +1,6 @@
 ---
 title: "A Visual History of Patent Protection"
-date: '2021-09-03T13:18:50-04:00'
+date: '2021-09-03'
 categories:
 - R
 - visualization
