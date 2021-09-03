@@ -10,11 +10,7 @@ htmlwidgets: no
 mathjax: no
 ---
 
-I noticed that most articles in economic journals avoid to visualize the scores of patent rights indexes. 
-
-But doing so is quite helpful to understand how much patentability, compulsory licensing and patent terms have changed over time. 
-
-The following graphs are based on the widely used patent rights index by Park and colleagues. This index is available for 122 countries over 55 years and consist of five main categories: 
+I noticed that most articles in economic journals avoid to visualize the scores of patent rights indexes. But doing so is quite helpful to understand how patentability, compulsory licensing and patent terms have changed over time. The following graphs are based on the widely used patent rights index by [http://fs2.american.edu/wgp/www/2EFWch2.pdf](Park and colleagues). This index is available for 122 countries over 55 years and consist of five main categories: 
 
 1. coverage +
 2. membership + 
@@ -32,11 +28,9 @@ A country has high coverage, according to the index, if it grants more patents f
 4) plant and animal varieties,
 5) surgical products,
 6) microorganisms, and
-7) utility models (weird)
+7) utility models (somewhat problematic)
 
-{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/coverage.png" alt="coverage" caption="" %}}
-
----
+{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/coverage.png" alt="coverage" caption="Patent Rights Index (Category: Coverage), 1960-2015" %}}
 
 ### Membership
 
@@ -47,9 +41,7 @@ PCT
 UPOV
 TRIPS
 
-{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/membership.png" alt="membership" caption="" %}}
-
----
+{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/membership.png" alt="membership" caption="Patent Rights Index (Category: Membership), 1960-2015" %}}
 
 ### Loss of Rights 
 
@@ -59,15 +51,13 @@ An additional assumption of the index is that countries without (!) the followin
 2) compulsory licensing requirements 
 3) straightout revocation
 
-{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/loss_of_rights.png" alt="loss_of_rights" caption="" %}}
+{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/loss_of_rights.png" alt="loss_of_rights" caption="Patent Rights Index (Category: Loss of Rights), 1960-2015" %}}
 
 ### Patent Term
 
-To determine whether the patent term in a country is long or short, the index compares available years to the „appropriate maximal term of protection“.  
+To determine whether the patent term in a given country is long or short, the index compares available years to the "appropriate maximal term of protection". If a country allows 15 years of protection, but could have allowed 20, it receives a score of 0.75  (15 years/20 years).
 
-If a country allows 15 years of protection, but could have allowed 20, it receives a score of 0.75  (15/20).
-
-{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/duration.png" alt="duration" caption="" %}}
+{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/duration.png" alt="duration" caption="Patent Rights Index (Category: Duration), 1960-2015" %}}
 
 ### Enforcement 
 
@@ -77,25 +67,19 @@ a) preliminary injunctions
 b) contributory infringements
 c) burden-of-proof reversals
 
-{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/enforcement.png" alt="enforcement" caption="" %}}
+{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/enforcement.png" alt="enforcement" caption="Patent Rights Index (Category: Enforcement), 1960-2015" %}}
 
 ### Overall 
 
 The final index just sums up the scores across all five categories to get overall scores for each country.
 
-{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/overall.png" alt="overall" caption="" %}}
+{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/overall.png" alt="overall" caption="Patent Rights Index (Overall), 1960-2015" %}}
 
-### Cross-Country Averages
+### Yearly Averages
 
-Heatmaps are helpful to see what happens to individual countries over time. But averages across all countries are much better to compare trends. 
+Heatmaps are helpful to explore timeseries of individual countries over time. To be able to spot more general averages, I have also plotted yearly averages.
 
-For instance, the average number of memberships and loss of rights requirements increases roughly at the same time.
-
-{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/averages.png" alt="averages" caption="" %}}
-
-This is not an endorsement of this specific index, just a visualization. 
-
-If you have ideas to measure patent protection differently, I would like to hear them.
+{{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/averages.png" alt="averages" caption="Patent Rights Index (Cross-Country Averages)" %}}
 
 ---
 
