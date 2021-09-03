@@ -40,10 +40,10 @@ A country has high coverage, according to the index, if it grants more patents f
 
 Park and colleagues assume that membership in the following international agreements generally equals higher protection: 
 
-a) [Paris Convention](https://www.wipo.int/treaties/en/ip/paris/)
-b) [PCT](https://www.wipo.int/pct/en/)
-c) [UPOV](https://www.upov.int/portal/index.html.en)
-d) [TRIPS](https://www.wto.org/english/tratop_e/trips_e/trips_e.htm)
+1. [Paris Convention](https://www.wipo.int/treaties/en/ip/paris/)
+2. [PCT](https://www.wipo.int/pct/en/)
+3. [UPOV](https://www.upov.int/portal/index.html.en)
+4. [TRIPS](https://www.wto.org/english/tratop_e/trips_e/trips_e.htm)
 
 {{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/membership.png" alt="membership" caption="Patent Rights Index (Category: Membership), 1960-2015" %}}
 
@@ -67,9 +67,9 @@ To determine whether the patent term in a given country is long or short, the in
 
 Does country x make the following enforcement mechanisms available to patent owners? 
 
-a) preliminary injunctions
-b) contributory infringements
-c) burden-of-proof reversals
+1. preliminary injunctions
+2. contributory infringements
+3. burden-of-proof reversals
 
 {{% figure src="https://raw.githubusercontent.com/markushlang/patent_rights_index/main/enforcement.png" alt="enforcement" caption="Patent Rights Index (Category: Enforcement), 1960-2015" %}}
 
